@@ -5,11 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".SecondActivity">
-    <Button
-    android:id="@+id/btn_close"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="Second Activity Close"/>
+    tools:context=".MainActivity">
 
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radio_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Second Activity"/>
+        <RadioButton
+            android:id="@+id/radio_third"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Third Activity"/>
+    </RadioGroup>
+    <Button
+        android:id="@+id/btn_open"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Activity Open"/>
 </LinearLayout>
