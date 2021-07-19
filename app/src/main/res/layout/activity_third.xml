@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#F69EFF"
     android:orientation="vertical"
-    tools:context=".activity_third">
+    tools:context=".ThirdActivity">
 
     <Button
         android:id="@+id/btn_third_close"
