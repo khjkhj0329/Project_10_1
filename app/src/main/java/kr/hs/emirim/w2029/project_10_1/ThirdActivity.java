@@ -12,6 +12,7 @@ public class ThirdActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_third);
+
         Button btnThirdClose = findViewById(R.id.btn_third_close);
         btnThirdClose.setOnClickListener(btnThirdCloseListener);
     }
