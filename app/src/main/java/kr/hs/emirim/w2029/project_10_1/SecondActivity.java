@@ -13,9 +13,10 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-        Button btnClose = findViewById(R.id.btn_close);
+        Button btnClose = findViewById(R.id.btn_open);
         btnClose.setOnClickListener(btnCloseListener);
     }
+
     View.OnClickListener btnCloseListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
